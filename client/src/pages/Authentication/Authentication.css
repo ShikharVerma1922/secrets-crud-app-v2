@@ -1,0 +1,33 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #f7f7f7;
+  height: 100vh;
+  background: linear-gradient(to right, #f7f9fc, #e6e9ff);
+}
+
+.form-style {
+  width: 400px;
+  background-color: white;
+}
+
+.styledInput {
+  border: "none";
+  border-bottom: "solid black 1px";
+  outline: "none";
+}
+
+.styledInput::placeholder {
+  color: #888;
+  font-size: 14px;
+  opacity: 1;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-style {
+    width: 90%;
+  }
+}
