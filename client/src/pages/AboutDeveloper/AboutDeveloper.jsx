@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"; // Example icons
-// import developerImage from "../assets/DP.jpeg";
+import developerImage from "../assets/DP.jpeg";
 
 const AboutDeveloper = () => {
   return (
@@ -10,7 +10,7 @@ const AboutDeveloper = () => {
       <Row className="justify-content-center">
         <Col md={4} className="text-center">
           <img
-            src={developerImage} // Replace with your photo URL
+            src={developerImage}
             alt="Developer"
             style={{ width: "200px", height: "200px" }}
             className="img-fluid rounded-circle mb-3"
