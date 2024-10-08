@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"; // Example icons
-import developerImage from "../assets/DP.jpeg";
+import developerImage from "../../assets/DP.jpeg";
 
 const AboutDeveloper = () => {
   return (
